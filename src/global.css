@@ -1,0 +1,128 @@
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display: flex;
+}
+li {
+    list-style-type: none;
+    margin-left: 2rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1024px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+.banner img {
+    width: 100%;
+}
+.news-container {
+    background-color:#F2F2F2;
+}
+.news-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-text {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    color: white;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13.313rem;
+}
+.createby-container {
+    display: flex;
+    align-items: center;
+    color: #E9BF33;
+    font-size: 0.625rem;
+}
+.content-vtex {
+    margin-left: 1.5rem;
+}
+
+.contato-button {
+    background-color: #E9BF33;
+    display: flex;
+    padding: 13px 17px;
+    border-radius: 5px;
+    align-items: center;
+}
+.contato-button:first-child {
+    margin-bottom: 1.563rem;
+}
+.contato-button.fale {
+    padding: 8px 17px;
+    line-height: 1rem;
+}
+.contato-button img{
+    margin-right: 17px;
+    align-items: center;
+}
+.news-container {
+    padding: 1.5rem 0 2.25rem;
+}
+
+.news-input {
+    border: 0;
+    padding-left: 1rem;
+    border-radius: 0.313rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-right: 0.5rem;
+    outline: none;
+    width: 17.5rem;
+    height: 3rem;
+}
+.button-form {
+    color: white;
+    background-color: #E9BF33;
+    padding: 0rem;
+    width: 8.75rem;
+    height: 3rem;
+}
+.button-form:hover {
+    background-color: #d1a71e
+}
+#textBusca {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0.5rem;
+    width: 10.5rem;
+    border: none;
+    outline: none;
+}
+#lineSearch {
+    border: 1px solid rgb(97, 89, 89);
+}
+#divBusca {
+    display: inline-block;
+    align-items: center;
+}
+#content-user {
+    margin: 0 1rem 0 0.3rem;
+}
+
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
